@@ -111,7 +111,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ── MAIN ─────────────────────────────────────────
 
 def main():
-    TOKEN = "8725293863:AAEitTL2eruwWCkB6yaXm4nW64LZfeW2x7o"  # replace this
+    TOKEN = "your_telegram_bot_token"  # replace this
 
     app = ApplicationBuilder().token(TOKEN).build()
 
